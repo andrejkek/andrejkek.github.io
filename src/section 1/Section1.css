@@ -1,0 +1,11 @@
+.animation{
+    animation: myAnimation 2s linear infinite;
+}
+@keyframes myAnimation {
+    0%, 100%{
+        bottom: -60px;
+    }
+    50%{
+        bottom: -30px;
+    }
+}
